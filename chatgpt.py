@@ -1,16 +1,6 @@
-from pathlib import Path
-from hoshino import Service, priv, aiorequests, R
-import requests
-import base64
-from PIL import Image
-from io import BytesIO
-import math
-import random
-import hoshino
+from hoshino import Service, priv 
 import asyncio
 from revChatGPT.revChatGPT import Chatbot
-from hoshino import Service, priv, aiorequests, R
-from qbittorrent import Client  
 
 config = {
         "Authorization": "<Your Bearer Token Here>", # This is optional
